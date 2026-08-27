@@ -23,7 +23,7 @@ The executables are generated in the Release or Debug folder under the subdirect
 ### Video Tutorial:
 Watch the video tutorials made by our awesome TAs Kevin and Vibha:
 - **Windows**: https://youtu.be/f6KYyLUswcg
-- **OSX**: https://youtu.be/44jzYA2upHU
+- **macOS**: https://youtu.be/44jzYA2upHU
 
 ## 1. Compile and run the first assignment:
 
@@ -38,7 +38,7 @@ Watch the video tutorials made by our awesome TAs Kevin and Vibha:
 
 - **Windows**: Visit https://cmake.org/download/ and download the latest version.  
 - **Linux**: `sudo apt-get install cmake`
-- **OSX**: `brew install cmake` (using [Homebrew](https://brew.sh/))
+- **macOS**: `brew install cmake` (using [Homebrew](https://brew.sh/))
 
 **Substep 2.1.0: Install IDE (Windows only)**
   - If you are using Windows and you don't have Visual Studio, please install [Visual Studio 2022] (Community Version) (https://visualstudio.microsoft.com/vs/older-downloads/) , as well as it's [C/C++ support](https://docs.microsoft.com/en-us/cpp/build/vscpp-step-0-installation?view=msvc-150). 
@@ -48,20 +48,20 @@ Watch the video tutorials made by our awesome TAs Kevin and Vibha:
   in your command.   
   **Find setup.bat in your script folder, and change "Visual Studio 17 2015" to your own version**, or you might get an error at step 2.2
 
-**Substep 2.1.1: Install Dependencies (Linux/OSX only)**
+**Substep 2.1.1: Install Dependencies (Linux/macOS only)**
 - **Linux**: `sudo apt-get install freeglut3-dev libglew-dev`
-- **OSX**: `brew install glew freeglut`
+- **macOS**: `brew install glew freeglut`
 
 
   
 **Substep 2.2: Run setup.sh/bat**
 
     .\scripts\setup.bat [Windows]
-    ./scripts/setup.sh [Linux/OSX]
+    ./scripts/setup.sh [Linux/macOS]
 
 Note: you need to run the command in your root folder (cs3451-computer-graphics-starter-code). Otherwise your computer will not be able find the cmake file.  
 
-Note: it's possible under OSX environment, run `.sh` gives you `permission denied` exception. Use `chmod u+r+x script_name.sh` to get rid of this.
+Note: it's possible under macOS environment, run `.sh` gives you `permission denied` exception. Use `chmod u+r+x script_name.sh` to get rid of this.
  
 
 ### Step 3: Compile and run the code
@@ -79,7 +79,7 @@ This will:
 ### Step 4: Start implementing!
 
 - **Windows**: Open the .sln project file in the `build` folder.
-- **Linux or OSX**: Use your editor of choice to edit the assignment files in `assignments`
+- **Linux or macOS**: Use your editor of choice to edit the assignment files in `assignments`
 
 ## 3. Command line details (optional) 
 
