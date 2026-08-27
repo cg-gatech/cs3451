@@ -18,7 +18,7 @@ To generate build files (e.g., an .sln file for Windows or a makefile for Linux)
 
 ### Executable
 
-The executables are generated in the Release or Debug folder under the subdirectory (e.g., `build/a1/Release`) for Windows and just in e.g. `build/a1` for Linux/Mac.
+The executables are generated in the Release or Debug folder under the subdirectory (e.g., `build/a1/Release`) for Windows and just in e.g. `build/a1` for Linux/macOS.
 
 ### Video Tutorial:
 Watch the video tutorials made by our awesome TAs Kevin and Vibha:
@@ -69,7 +69,7 @@ Note: it's possible under macOS environment, run `.sh` gives you `permission den
 To test if everything works correctly you can run:
 
     .\scripts\run_assignment.bat a1 [Windows]
-    ./scripts/run_assignment.sh a1 [Linux/Mac]
+    ./scripts/run_assignment.sh a1 [Linux/macOS]
 
 This will:
 
