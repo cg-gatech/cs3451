@@ -178,7 +178,6 @@ void OpenGLWindow::Initialize_OpenGL()
 	glFrontFace(GL_CCW);
 
 	glEnable(GL_MULTISAMPLE);
-	glHint(GL_MULTISAMPLE_FILTER_HINT_NV, GL_NICEST);
 
 	Initialize_Camera();
 	Initialize_Ubos();
