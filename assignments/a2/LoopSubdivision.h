@@ -54,7 +54,7 @@ inline Vertex SmoothOddVtx(const std::vector<Vertex> &old_vtx, const int p0, con
 
 
 /////////////////////////////////////////////////////
-// Step 3.(1) function: calculate the smoothed odd vertex position using the vertex position array old_vtx, the vertex index v, and the neighbor indicies nbs
+// Step 3.(1) function: calculate the smoothed even vertex position using the vertex position array old_vtx, the vertex index v, and the neighbor indicies nbs
 /////////////////////////////////////////////////////
 
 inline Vertex SmoothEvenVtx(const std::vector<Vertex> &old_vtx, int v, const std::vector<int> &nbs) 
